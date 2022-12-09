@@ -1,0 +1,934 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    background-color: rgb(248, 210, 221);
+    
+    
+}
+
+.footer{
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+
+.Registration_form{
+    margin: 10% 25% 10% 25%;
+    display: inline-block;
+    padding: 1rem;
+    width: 50%;
+    border: 1px solid #3d3a3a;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+    box-shadow: 0 24px 38px rgba(66, 180, 233, 0.25), 0 20px 20px rgba(66, 180, 233, 0.22);
+}
+
+.banner {
+	position: absolute;
+	width: 35%;
+	height: auto;
+	border-radius: 10px;
+	overflow: hidden;
+  top:70px;
+	left: 600px;
+}
+
+.submit{
+    position:relative;
+    width:7rem;
+    height:2rem;
+    background:rgb(228, 247, 234);
+    left:0;
+    top:0;
+    font-size: 1rem;
+    font-weight: bold;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    border: 2px solid #dd16ab;
+    border-radius: 5px;
+}
+
+
+  
+  .submit:hover {
+    background-color: #26db62f6;
+    color: white;
+  }
+
+  .reset{
+    position:relative;
+    width:7rem;
+    height:2rem;
+    background:rgb(228, 247, 234);
+    left:2;
+    top:2;
+    font-size: 1rem;
+    font-weight: bold;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    border: 2px solid #f53232;
+    border-radius: 5px;
+}
+
+
+  
+  .reset:hover {
+    background-color: #26db62f6;
+    color: white;
+  }
+
+  .table {
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    border: 1px solid #0c0c0c;
+  }
+
+.table tr{
+  height: 1.5rem;
+  padding-left: 10%;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f5ebeb;
+}
+.table tr:nth-child(odd) {
+  background-color: rgb(160, 218, 213);
+}
+
+.input-group{
+  display: flex;
+  justify-content: center;
+}
+
+
+.common_button{
+  position:relative;
+  width:5rem;
+  height:2rem;
+  background:rgb(228, 247, 234);
+  left:18%;
+  top:10px;
+  font-size: 1rem;
+  font-weight: bold;
+  transition-duration: 0.2s;
+  cursor: pointer;
+  border: 2px solid #008CBA;
+  border-radius: 7px;
+}
+
+.bill_update:hover {
+  background-color: #be30be;
+  color: white;
+}
+
+
+/* LOGIN*/
+
+.Login_Body:before {
+	content: '';
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	background-image: url(../view/image/doctor-6702991__340.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+	-webkit-filter: blur(8px);
+	-moz-filter: blur(8px);
+	filter: blur(8px);
+}
+
+.Login {
+  font-family: 'Poppins', sans-serif;
+  position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-55%, -50%);
+	width: 500px;
+	height: 600px;
+	padding: 50px 40px;
+	background: rgba(84, 38, 136, 0.5);
+  box-shadow: 0 14px 28px rgba(59, 4, 55, 0.25), 0 10px 10px rgba(54, 4, 50, 0.22);
+  color: rgb(255,255,255);
+  border-radius: 15px;
+}
+
+.banner6 {
+	position: absolute;
+	width: 6%;
+	height: auto;
+	border-radius: 10px;
+	overflow: hidden;
+  top:150px;
+	left: 880px;
+}
+
+.Login h2 {
+	margin: 0;
+	padding: 0 0 20px;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.Login input {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.Login input[type=text], .Login input[type=password] {
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+
+.Login p {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+
+.Login input[type=submit] {
+	height: 30px;
+	color: #fff;
+	font-size: 15px;
+	background: rgb(179, 60, 209);
+	cursor: pointer;
+	border-radius: 15px;
+	border: none;
+	outline: none;
+	margin-top: 15%;
+}
+
+.Login a {
+	color: rgb(0,0,255);
+	font-size: 14px;
+	text-decoration: none;
+}
+input[type=checkbox] {
+	width: 20%;
+}
+
+.Login input[type=submit]:hover {
+  background-color: #f035a2f6;
+  color: white;
+}
+
+
+/*BILLING*/
+
+.Billing{
+    margin: 10% 10% 5% 15%;
+    display: inline-block;
+    padding: 1rem;
+    width: 70%;
+    padding: 25px 25px 70px 45px;
+    border: 1px solid #3d3a3a;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+    box-shadow: 0 14px 28px rgba(66, 180, 233, 0.25), 0 10px 10px rgba(66, 180, 233, 0.22);
+}
+
+.banner5 {
+	position: absolute;
+	width: 25%;
+	height: auto;
+	border-radius: 10px;
+	overflow: hidden;
+    top:110px;
+	left: 690px;
+}
+
+
+tr{
+    height: 3rem;
+}
+
+.Billing input[type=text]{
+    padding: 6px;
+    border-radius: 5px;
+    width:20vh;
+}
+
+
+.bill_Add{
+    position:relative;
+    width:5rem;
+    height:2rem;
+    background:rgb(228, 247, 234);
+    left:35%;
+    top:150px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    border: 2px solid #008CBA;
+    border-radius: 7px;
+}
+
+
+  
+  .bill_Add:hover {
+    background-color: #be30be;
+    color: white;
+  }
+
+.bill_update{
+    position:relative;
+    width:5rem;
+    height:2rem;
+    background:rgb(228, 247, 234);
+    left:38%;
+    top:150px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    border: 2px solid #008CBA;
+    border-radius: 7px;
+}
+
+.bill_update:hover {
+    background-color: #be30be;
+    color: white;
+  }
+
+  
+
+.bill_invoice{
+    position:relative;
+    width:5rem;
+    height:2rem;
+    background:rgb(228, 247, 234);
+    left:41%;
+    top:150px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    border: 2px solid #008CBA;
+    border-radius: 7px;
+}
+
+.bill_invoice:hover {
+    background-color: #c72fdb;
+    color: white;
+  }
+
+
+  .bill_back{
+    position:relative;
+    width:5rem;
+    height:2rem;
+    background:rgb(228, 247, 234);
+    left:45%;
+    top:150px;
+    font-size: .9rem;
+    font-weight: bold;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    border: 2px solid #008CBA;
+    border-radius: 7px;
+}
+
+.bill_back:hover {
+    background-color: #c72fdb;
+    color: white;
+  }
+
+
+/*ADD Employee*/
+
+.Emp_Body:before {
+	content: '';
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	background-image: url(../view/image/2bgqjhmw_0iifqf_p8twtq.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+	-webkit-filter: blur(10px);
+	-moz-filter: blur(10px);
+	filter: blur(10px);
+}
+
+.Employee {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-55%, -50%);
+    width: 500px;
+    height: 600px;
+    padding: 50px 40px;
+    background: rgba(122, 113, 204, 0.5);
+    color: rgb(255,255,255);
+    font-weight:bold;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+ .Employee input[type=text], .Employee input[type=tel], .Employee input[type=password] {
+    padding: 8px;
+    border-radius: 8px;
+    width:28vh;
+}
+
+
+.Employee h2{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+
+.banner1 {
+	position: absolute;
+	width: 25%;
+	height: auto;
+	border-radius: 10px;
+	overflow: hidden;
+    top:110px;
+	left: 690px;
+}
+
+
+.Emp_Add{
+    position:relative;
+    width:5rem;
+    height:2rem;
+    background:rgb(228, 247, 234);
+    left:15%;
+    top:420px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    border: 2px solid #008CBA;
+    border-radius: 7px;
+}
+
+
+  
+  .Emp_Add:hover {
+    background-color: #be30be;
+    color: white;
+  }
+
+  .Emp_show {
+    position:relative;
+    width:5rem;
+    height:2rem;
+    background:rgb(228, 247, 234);
+    left:21%;
+    top:420px;
+    font-size: .9rem;
+    font-weight: bold;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    border: 2px solid #008CBA;
+    border-radius: 7px;
+}
+
+  a{
+    text-decoration: none;
+  }
+
+.Emp_show:hover {
+    background-color: #c72fdb;
+    color: white;
+  }
+
+
+.Emp_delete{
+    position:relative;
+    width:5rem;
+    height:2rem;
+    background:rgb(228, 247, 234);
+    left:30%;
+    top:420px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    border: 2px solid #008CBA;
+    border-radius: 7px;
+}
+
+.Emp_delete:hover {
+    background-color: #add1e2;
+    color: white;
+  }
+
+
+  .Emp_search{
+    position:relative;
+    width:5rem;
+    height:2rem;
+    background:rgb(228, 247, 234);
+    left:25%;
+    top:420px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    border: 2px solid #008CBA;
+    border-radius: 7px;
+}
+
+.Emp_search:hover {
+    background-color: #c4918f;
+    color: white;
+  }
+
+
+/*ADD Examination*/
+
+.Exam_body:before {
+	content: '';
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	background-image: url(../view/image/exam.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+	-webkit-filter: blur(5px);
+	-moz-filter: blur(5px);
+	filter: blur(5px);
+}
+
+.Exam {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 900px;
+    height: 350px;
+    padding: 50px 40px;
+    background: rgba(90, 19, 105, 0.5);
+    color: rgb(255,255,255);
+    font-weight:bold;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+ .Exam input[type=text]{
+    padding: 7px;
+    border-radius: 8px;
+    width:28vh;
+}
+
+
+.Exam h2{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+
+.banner2 {
+	position: absolute;
+	width: 25%;
+	height: auto;
+	border-radius: 10px;
+	overflow: hidden;
+    top:180px;
+	left: 670px;
+}
+
+.Exam_Add1{
+    position:relative;
+    width:5rem;
+    height:2rem;
+    background:rgb(228, 247, 234);
+    left:55%;
+    top:200px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    border: 2px solid #dd16ab;
+    border-radius: 7px;
+}
+
+
+  
+  .Exam_Add1:hover {
+    background-color: #3884dbf6;
+    color: white;
+  }
+
+.Exam_update1{
+    position:relative;
+    width:5rem;
+    height:2rem;
+    background:rgb(228, 247, 234);
+    left:57%;
+    top:200px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    border: 2px solid #dd16ab;
+    border-radius: 7px;
+}
+
+.Exam_update1:hover {
+    background-color: #3884dbf6;
+    color: white;
+  }
+
+  .Exam_show1{
+    position:relative;
+    width:5rem;
+    height:2rem;
+    background:rgb(228, 247, 234);
+    left:59%;
+    top:200px;
+    font-size: .9rem;
+    font-weight: bold;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    border: 2px solid #dd16ab;
+    border-radius: 7px;
+}
+
+.Exam_show1:hover {
+    background-color: #3884dbf6;
+    color: white;
+  }
+
+
+.Exam_delete1{
+    position:relative;
+    width:5rem;
+    height:2rem;
+    background:rgb(228, 247, 234);
+    left:63%;
+    top:200px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    border: 2px solid #dd16ab;
+    border-radius: 7px;
+}
+
+.Exam_delete1:hover {
+    background-color: #dd241d;
+    color: white;
+  }
+
+
+/*PATIENT INFORMATION*/
+
+.Patient_body:before {
+	content: '';
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	background-image: url(../view/image/patient.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+	-webkit-filter: blur(5px);
+	-moz-filter: blur(5px);
+	filter: blur(5px);
+}
+
+.Patient {
+    position: absolute;
+	top: 60%;
+	left: 55%;
+	transform: translate(-60%, -55%);
+	width: 600px;
+	height: 700px;
+	padding: 50px 40px;
+	background: rgba(221, 108, 187, 0.5);
+    color: rgb(255,255,255);
+    font-weight:bold;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+
+ .Patient input[type=text], .Patient input[type=date], .Patient input[type=tel]{
+    padding: 5px;
+    border-radius: 8px;
+    width:28vh;
+}
+
+
+.Patient h2{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+
+.banner3 {
+	position: absolute;
+	width: 25%;
+	height: auto;
+	border-radius: 10px;
+	overflow: hidden;
+    top:70px;
+	left: 750px;
+}
+
+.patient_Add{
+    position:relative;
+    width:5rem;
+    height:2rem;
+    background:rgb(228, 247, 234);
+    left:30%;
+    top:550px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    border: 2px solid #dd16ab;
+    border-radius: 7px;
+}
+
+
+  
+  .patient_Add:hover {
+    background-color: #3884dbf6;
+    color: white;
+  }
+
+.patient_update{
+    position:relative;
+    width:5rem;
+    height:2rem;
+    background:rgb(228, 247, 234);
+    left:32%;
+    top:550px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    border: 2px solid #dd16ab;
+    border-radius: 7px;
+}
+
+.patient_update:hover {
+    background-color: #3884dbf6;
+    color: white;
+  }
+
+  .patient_show{
+    position:relative;
+    width:5rem;
+    height:2rem;
+    background:rgb(228, 247, 234);
+    left:34%;
+    top:550px;
+    font-size: .9rem;
+    font-weight: bold;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    border: 2px solid #dd16ab;
+    border-radius: 7px;
+}
+
+.patient_show:hover {
+    background-color: #3884dbf6;
+    color: white;
+  }
+
+
+.patient_delete{
+    position:relative;
+    width:5rem;
+    height:2rem;
+    background:rgb(228, 247, 234);
+    left:40%;
+    top:550px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    border: 2px solid #dd16ab;
+    border-radius: 7px;
+}
+
+.patient_delete:hover {
+    background-color: #dd241d;
+    color: white;
+  }
+
+
+  /* DOCTOR INFORMATION*/
+
+  
+.doctor_body:before {
+	content: '';
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	background-image: url(../view/image/doctor1.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+	-webkit-filter: blur(5px);
+	-moz-filter: blur(5px);
+	filter: blur(5px);
+}
+
+.Doctor {
+    position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-55%, -50%);
+	width: 500px;
+	height: 600px;
+	padding: 50px 40px;
+	background: rgba(108, 196, 101, 0.5);
+    color: rgb(255,255,255);
+    font-weight:bold;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+ .Doctor input[type=text], .Doctor input[type=tel] {
+    padding: 8px;
+    border-radius: 8px;
+    width:30vh;
+}
+
+
+.Doctor h2{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+
+.banner4 {
+	position: absolute;
+	width: 25%;
+	height: auto;
+	border-radius: 10px;
+	overflow: hidden;
+    top:110px;
+	left: 690px;
+}
+
+
+
+.Doc_Add{
+    position:relative;
+    width:5rem;
+    height:2rem;
+    background:rgb(228, 247, 234);
+    left:15%;
+    top:420px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    border: 2px solid #008CBA;
+    border-radius: 7px;
+}
+
+
+  
+  .Doc_Add:hover {
+    background-color: #be30be;
+    color: white;
+  }
+
+.Doc_update{
+    position:relative;
+    width:5rem;
+    height:2rem;
+    background:rgb(228, 247, 234);
+    left:18%;
+    top:420px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    border: 2px solid #008CBA;
+    border-radius: 7px;
+}
+
+.Doc_update:hover {
+    background-color: #be30be;
+    color: white;
+  }
+
+  .Doc_show{
+    position:relative;
+    width:5rem;
+    height:2rem;
+    background:rgb(228, 247, 234);
+    left:21%;
+    top:420px;
+    font-size: .9rem;
+    font-weight: bold;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    border: 2px solid #008CBA;
+    border-radius: 7px;
+}
+
+.Doc_show:hover {
+    background-color: #c72fdb;
+    color: white;
+  }
+
+
+.Doc_delete{
+    position:relative;
+    width:5rem;
+    height:2rem;
+    background:rgb(228, 247, 234);
+    left:25%;
+    top:420px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    border: 2px solid #008CBA;
+    border-radius: 7px;
+}
+
+.Doc_delete:hover {
+    background-color: #dd241d;
+    color: white;
+  }

@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(218, 161, 213);
+}
+
+.landing-page__first-part {
+  background: url(../image/5810c57eb28a645d008b4fa8.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 120vh;
+  background-size: 100% 100%;
+}
+
+.bannerD{
+  position: absolute;
+	width: 35%;
+	height: auto;
+	border-radius: 10px;
+	overflow: hidden;
+  top:170px;
+	left: 600px;
+}
+
+.landing-page_first-part_title {
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(67, 5, 138);
+  font-weight: bold;
+  padding: 15rem;
+  padding-bottom: 0;
+  float: center;
+  border-radius: 15px;
+  
+}
+
+.landing-page__first-part__paragraph{
+  text-align: justify;
+  font-size: 1.5rem;
+  padding: 1rem;
+  border-style: ridge;
+}
+
+.landing-page__first-part__button{
+  background-color: #4CAF50;
+  border: 1px solid rgb(255, 99, 99);
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: fixed;
+  left: 35px;
+  bottom: 70vh;
+}
+
+.landing-page__second-part-services{
+  display: inline-block;
+  padding: 5rem;
+  max-width: 100%;
+  height: 50vh;
+  width: 100%;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: rgb(48, 202, 182);
+  box-shadow: 0 20px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.landing-page__second-part-services{
+
+  float: center;
+  width: 30%;
+  padding-right:0 10px;
+}
+
+.landing-page__third-part-services{
+  display: inline-block;
+  padding: 5rem;
+  max-width: 100%;
+  height: 50vh;
+  width: 100%;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: rgb(48, 202, 182);
+  box-shadow: 0 20px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.landing-page__third-part-services{
+
+  float: right;
+  width: 30%;
+  padding-left: 0 10px;
+}
+
+marquee {
+  background-color: #dfbadf;
+  padding: 10px;
+  font-size: 1.5rem;
+  color: rgb(7, 6, 6);
+}
+
+
+/* DOCTOR HOME PAGE*/
+
+.doctor{
+  padding:2%;
+  background:aqua;
+  
+}
+.doctor .doctor-name{
+display: flex;
+justify-content: center;
+padding-bottom: 3%;
+font-size: 45px;
+
+}
+.column {
+float: left;
+width: 25%;
+padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+.column {
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+}
+}
+
+/* Style the counter cards */
+.card {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+padding: 16px;
+text-align: center;
+background-color: #f1f1f1;
+}
+.card img{
+ width: 90%; 
+ height: 40%;
+}
